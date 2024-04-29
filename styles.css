@@ -1,0 +1,173 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+/* Nav section starts here */
+
+#Nav-Container{
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #eee;
+  align-items: center;
+}
+
+#Nav-Container article{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 90px;
+}
+#Nav-Container .logo, #Nav-Container .nav{
+flex: 1;
+}
+#Nav-Container article .nav-links
+{
+  display: flex;
+  align-items: center;
+  background: #8ad425;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  justify-content: space-around;
+}
+#Nav-Container article .nav-links li{
+  list-style: none;
+}
+
+#Nav-Container article .nav-links li a{
+  position: relative;
+  font-weight: 500;
+  padding: 6px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+#Nav-Container article .nav-links li a:hover{
+  color: #2594d4;
+}
+/* nav selection ends here */
+#Slideshow-Containter .slideshow-container  {
+  position: relative;
+  width: 1200px;
+  margin: 10px auto;
+}
+#Slideshow-Containter .slideshow-container img {
+  height: 500px;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+#saveBlock article{
+  width: 90%;
+  margin: 30px auto;
+  padding-bottom: 30px;
+}
+#saveBlock article p{
+  font-weight: 700;
+  font-size: 26px;
+  color: #000;
+  font-family: Open Sans,sans-serif;
+}
+#saveBlock article main div{
+  width:32%;
+  height: 200px;
+ 
+  
+}
+#saveBlock article main{
+  display: flex;
+  justify-content: space-between;
+}
+#saveBlock article div img{
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+}
+#saveBlock article div img:hover{
+  transform: scale(1.1);
+  transition: ease all 0.7s;
+}
+#saveBlock article div figure figcaption{
+  color: #8ad425;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* footer start here*/
+#footerSection{
+  height: 50px;
+  clear: both;
+  position: relative;
+  z-index: 1;
+  background: #6d787d;
+}
+#footerSection article{
+  width: 90%;
+  margin: 0 auto;
+}
+#footerSection footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0px solid #fff;
+}
+#footerSection footer div span a{
+  font-size: 20px;
+  margin: 10px;
+  color: #fff;
+
+}
+#footerSection footer div:nth-child(2){
+  color: hsla(0,0%,100%,.7);
+  font-weight: 700;
+  font-size: 12px;
+}
+#footerSection footer div{
+  margin: 18px 0 18px;
+}

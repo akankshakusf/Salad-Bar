@@ -1,0 +1,87 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #c8e8e9;
+  
+}
+/* Nav Section starts here */
+
+#Nav-Container{
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #eee;
+  align-items: center;
+}
+
+#Nav-Container article{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 90px;
+}
+#Nav-Container .logo, #Nav-Container .nav{
+flex: 1;
+}
+#Nav-Container article .nav-links
+{
+  display: flex;
+  align-items: center;
+  background: #8ad425;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  justify-content: space-around;
+}
+#Nav-Container article .nav-links li{
+  list-style: none;
+}
+
+#Nav-Container article .nav-links li a{
+  position: relative;
+  font-weight: 500;
+  padding: 6px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+#Nav-Container article .nav-links li a:hover{
+  color: #2594d4;
+}
+
+/* Nav section ends here */
+/* table section starts here  */
+#tableSection{
+  width: 1200px;
+  border: 1px solid gray;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px auto; 
+  padding: 20px;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td,th {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+th {
+  background-color: #ccc;
+}
+thead, tbody{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.tdColspan{
+  background-color: #eee;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* table section ends here*/
