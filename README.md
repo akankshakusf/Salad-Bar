@@ -1,4 +1,4 @@
-<img src="images/SALADS.png" alt="Bowl of Salad" width="300" height="300">
+<img src="/Images/SALADS.png" alt="Bowl of Salad" width="300" height="300">
 <br>
 <br>
 A Salad Bar website
