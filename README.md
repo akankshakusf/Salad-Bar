@@ -1,7 +1,7 @@
-<img src="/Images/SALADS.png" alt="Bowl of Salad" width="300" height="300">
+<img src="/Images/slider1.jpg" alt="Bowl of Salad" width="300" height="300">
 <br>
 <br>
-A Salad Bar website
+A Salad Bar Website
 <br>
 <br>
 
