@@ -1,4 +1,4 @@
-<img src="/Images/slider1.jpg" alt="Bowl of Salad" width="300" height="300">
+<img src="/Images/slider1.jpg" alt="Bowl of Salad" width="400" height="500">
 <br>
 <br>
 A Salad Bar Website
